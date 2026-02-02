@@ -35,15 +35,13 @@ import subprocess
 import sys
 import time
 
-# EMAIL = Cloudflare account email
-# KEY = Cloudflare API key
+#KEY = "Your API TOKEN"
 
 TIMEOUT = 60
 
 # HTTP request headers for cloudflare API.
 headers = {
-    'X-Auth-Email': EMAIL,
-    'X-Auth-Key': KEY,
+    'Authorization': f'Bearer {KEY}',
     'Content-Type': 'application/json'
 }
 
