@@ -13,8 +13,7 @@ Allow only yourself to read/write/execute it:
 $ chmod 700 dns.hook
 ```
 
-Edit `dns.hook` script. Put your [API
-TOKEN][https://dash.cloudflare.com/profile/api-tokens] in the following line and uncomment that:
+Edit `dns.hook` script. Put your [API_TOKEN](https://dash.cloudflare.com/profile/api-tokens) in the following line and uncomment that:
 ```python
 import requests
 import signal
