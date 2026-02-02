@@ -40,3 +40,5 @@ If it works, copy/move to acmetool hooks dir (e.g. `/usr/lib/acme/hooks/`):
 ```
 $ sudo mv dns.hook /usr/lib/acme/hooks/
 ```
+
+After that, acmetool will find this hook, and it will proceed with dns challange method...
